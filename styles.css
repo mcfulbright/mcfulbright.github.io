@@ -67,16 +67,85 @@ p {
     margin-top: 15px;
     background-color: rgb(224, 129, 129);
 }
-.left{
+
+.left {
     float: left;
     width: 40%;
 }
-.right{
+
+.right {
     float: right;
     width: 40%;
 }
-.pic{
+
+.pic {
     width: 40%;
     margin-top: 15px;
     margin-left: 450px;
+}
+
+/* Existing styles... */
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    nav {
+        font-size: 16px;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .box,
+    .left,
+    .right,
+    .pic {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        font-size: 14px;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .border,
+    th,
+    td {
+        padding: 10px;
+    }
 }
