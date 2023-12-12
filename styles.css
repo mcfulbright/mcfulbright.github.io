@@ -1,0 +1,82 @@
+html {
+    background-color: rgb(201, 153, 201);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.border {
+    border-style: solid;
+    background-color: pink;
+    margin-bottom: 15px;
+
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    font-size: 20px;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+th {
+    background-color: pink;
+}
+
+td {
+    background-color: rgb(243, 163, 177);
+}
+
+footer {
+    background-color: pink;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.box {
+    border-style: solid;
+    margin-top: 15px;
+    background-color: rgb(224, 129, 129);
+}
+.left{
+    float: left;
+    width: 40%;
+}
+.right{
+    float: right;
+    width: 40%;
+}
+.pic{
+    width: 40%;
+    margin-top: 15px;
+    margin-left: 450px;
+}
